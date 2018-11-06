@@ -10,7 +10,7 @@ import UIKit
 
 class StarViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
-    var isRedDwarf: Bool!
+    var isRedDwarf: Bool! = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
